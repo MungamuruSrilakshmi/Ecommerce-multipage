@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+</script>
+
+<nav>
+  <h2>Fashion Store</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+  </div>
+</nav>
+
+<h1 style="text-align:center;">Shop Our Collection</h1>
+
+<div class="products">
+
+  <div class="product">
+    <h3>Red Dress</h3>
+    <p>₹1200</p>
+    <button onclick="addToCart('Red Dress',1200)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Blue Shirt</h3>
+    <p>₹800</p>
+    <button onclick="addToCart('Blue Shirt',800)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Leather Jacket</h3>
+    <p>₹2500</p>
+    <button onclick="addToCart('Leather Jacket',2500)">Add to Cart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
